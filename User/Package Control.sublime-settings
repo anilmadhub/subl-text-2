@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"LineEndings",
+		"Markdown Preview",
 		"Package Control",
 		"Shell Turtlestein",
 		"Theme - Soda",
