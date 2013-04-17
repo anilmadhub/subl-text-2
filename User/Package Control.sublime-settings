@@ -1,0 +1,11 @@
+{
+	"http_proxy": "http://iwelt2:8080",
+	"installed_packages":
+	[
+		"LineEndings",
+		"Package Control",
+		"Shell Turtlestein",
+		"Theme - Soda",
+		"Tortoise"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"exec_args": {
+	// 	"env": {"KEIL_PATH": "C:\\tools\\Keil"},
+		"encoding": "cp850"
+	},
+
+	"cmd_settings": [
+		{
+			"cmd_regex": "^rake.*",
+			"exec_args": {
+				// regex that handles armcc and gcc errors
+				"file_regex": "^\"?(...*?)(?:\"|:)(?:, line )?([0-9]*):([0-9]*):?(?: [eE]rror: | [wW]arning: )(...*?)$",
+				// regex that handles, armcc, gcc and rake errors
+				// "file_regex": "^\"?(...*?)(?:\"|:)(?:, line )?([0-9]*):([0-9]*):?(?: [eE]rror: | [wW]arning: |in )(...*?)$",
+				"env": {"KEIL_PATH": "C:\\tools\\Keil"}
+			}
+		}
+	]
+}

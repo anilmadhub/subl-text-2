@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+/"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+alt+d"], "command": "tortoise_diff", "args": {"paths": true} }
+]
