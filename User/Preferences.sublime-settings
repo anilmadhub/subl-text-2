@@ -7,6 +7,12 @@
 	[
 		"Vintage"
 	],
+	"ignored_words":
+	[
+		"Keil",
+		"bootloader",
+		"ceedling"
+	],
 	"rulers":
 	[
 		80
