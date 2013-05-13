@@ -2570,6 +2570,9 @@ class PackageManager():
                 continue
             self.settings[setting] = settings.get(setting)
 
+        if not self.settings.get('http_proxy') and os.getenv('http_proxy'):
+            self.settings['http_proxy'] = os.getenv('http_proxy')
+
         # https_proxy will inherit from http_proxy unless it is set to a
         # string value or false
         no_https_proxy = self.settings.get('https_proxy') in ["", None]
