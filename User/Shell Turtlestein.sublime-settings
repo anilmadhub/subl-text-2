@@ -1,9 +1,4 @@
 {
-	"exec_args": {
-	// 	"env": {"KEIL_PATH": "C:\\tools\\Keil"},
-		"encoding": "cp850"
-	},
-
 	"cmd_settings": [
 		{
 			"cmd_regex": "^rake.*",

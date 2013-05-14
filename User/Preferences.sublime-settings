@@ -1,11 +1,10 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"default_encoding": "Western (Windows 1252)",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 10,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Tortoise"
 	],
 	"ignored_words":
 	[

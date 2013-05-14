@@ -1,0 +1,3 @@
+{
+	"surround_cmd": ["/bin/bash --init-file ~/.bashrc -c \"", "\""]
+}
