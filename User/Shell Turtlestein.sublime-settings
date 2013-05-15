@@ -2,12 +2,21 @@
 	"cmd_settings": [
 		{
 			"cmd_regex": "^rake.*",
-			"exec_args": {
+			"exec_args":
+			{
 				// regex that handles armcc and gcc errors
 				"file_regex": "^\"?(...*?)(?:\"|:)(?:, line )?([0-9]*):([0-9]*):?(?: [eE]rror: | [wW]arning: )(...*?)$",
 				// regex that handles, armcc, gcc and rake errors
 				// "file_regex": "^\"?(...*?)(?:\"|:)(?:, line )?([0-9]*):([0-9]*):?(?: [eE]rror: | [wW]arning: |in )(...*?)$",
 				"env": {"KEIL_PATH": "C:\\tools\\Keil"}
+			}
+		},
+		{
+			"cmd_regex": "^make.*",
+			"exec_args":
+			{
+				"file_regex": "^\"?(...*?)(?:\"|:)(?:, line )?([0-9]*):([0-9]*):?(?: [eE]rror: | [wW]arning: )(...*?)$",
+				"env":{"PATH": "/home/ed/tools/gt11_toolchain/bin:$PATH"}
 			}
 		}
 	]
