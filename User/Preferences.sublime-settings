@@ -16,6 +16,7 @@
 	[
 		80
 	],
+	"scroll_past_end": false,
 	"soda_classic_tabs": true,
 	"theme": "Soda Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
