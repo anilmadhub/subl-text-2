@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"CTags",
 		"LineEndings",
 		"Markdown Preview",
 		"Package Control",
