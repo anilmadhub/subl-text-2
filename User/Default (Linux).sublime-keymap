@@ -1,5 +1,13 @@
 [
 	{ "keys": ["alt+#"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 	{ "keys": ["ctrl+#"], "command": "toggle_comment", "args": { "block": false } },
-	{ "keys": ["ctrl+shift+#"], "command": "toggle_comment", "args": { "block": true } }
+	{ "keys": ["ctrl+shift+#"], "command": "toggle_comment", "args": { "block": true } },
+
+	// vintage tab navigation
+	{ "keys": ["g", "t"], "command": "next_view",
+		"context": [{"key": "setting.command_mode"}]
+	},
+	{ "keys": ["g", "T"], "command": "prev_view",
+		"context": [{"key": "setting.command_mode"}]
+	}
 ]
