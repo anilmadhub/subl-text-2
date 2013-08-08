@@ -311,10 +311,10 @@ class SublimergeView():
             self.right = self.window.open_file(right.file_name())
 
         if not self.rightEnabled and self.rightTmp:
-            self.right.set_syntax_file(self.left.settings().get('syntax'))
+            sublime.set_timeout(lambda: self.right.set_syntax_file(self.left.settings().get('syntax')), 100)
 
         if not self.leftEnabled and self.leftTmp:
-            self.left.set_syntax_file(self.right.settings().get('syntax'))
+            sublime.set_timeout(lambda: self.left.set_syntax_file(self.right.settings().get('syntax')), 100)
 
         self.left.set_scratch(True)
         self.right.set_scratch(True)
