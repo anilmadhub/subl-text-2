@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CTags",
+		"LaTeXTools",
 		"LineEndings",
 		"Markdown Preview",
 		"Package Control",
