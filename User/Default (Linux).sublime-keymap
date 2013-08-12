@@ -4,7 +4,7 @@
 	{ "keys": ["ctrl+shift+#"], "command": "toggle_comment", "args": { "block": true } },
 
 	// build binding for latextools
-	{ "keys": ["ctrl+l", "ctrl+b"], "command": "build" },
+	{ "keys": ["ctrl+l", "b"], "command": "build" },
 
 	// vintage tab navigation
 	{ "keys": ["g", "t"], "command": "next_view",
