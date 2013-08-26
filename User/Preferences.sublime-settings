@@ -1,34 +1,27 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"theme": "Soda Dark.sublime-theme",
-	"soda_classic_tabs": true,
-	////////////////////
+	"ensure_newline_at_eof_on_save": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Tortoise"
 	],
-	////////////////////
 	"ignored_words":
 	[
 		"Keil",
 		"bootloader",
 		"ceedling"
 	],
-	////////////////////
 	"rulers":
 	[
 		80
 	],
-	////////////////////
-	"ensure_newline_at_eof_on_save": true,
-	"trim_trailing_white_space_on_save": true,
-	////////////////////
 	"scroll_past_end": false,
-	"word_wrap": "true",
-	////////////////////
-	"highlight_modified_tabs": true,
-	"highlight_line": true,
-	////////////////////
+	"soda_classic_tabs": true,
+	"theme": "Soda Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
-	"vintage_ctrl_keys": true
+	"word_wrap": "true"
 }
