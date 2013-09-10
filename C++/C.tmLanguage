@@ -6,6 +6,7 @@
 	<array>
 		<string>c</string>
 		<string>h</string>
+		<string>c.erb</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
