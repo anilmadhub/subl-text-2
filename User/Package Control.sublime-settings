@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CTags",
+		"Cucumber",
 		"LaTeXTools",
 		"LineEndings",
 		"Markdown Preview",
